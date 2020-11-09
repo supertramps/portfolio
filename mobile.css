@@ -17,10 +17,12 @@
     justify-content: space-between;
     text-align: center;
     margin: auto;
+    margin-top: 1rem;
   }
 
   a {
     text-decoration: none;
+    font-size: 1rem;
   }
 
   a:visited {
@@ -45,19 +47,9 @@
     background-size: cover;
     background-repeat: none;
     opacity: 60%;
-    z-index: 1;
     position: relative;
-    bottom: 19rem;
+    bottom: 20rem;
     left: -2rem;
-  }
-
-  #profile-picture {
-    opacity: 50%;
-    position: relative;
-    bottom: 49rem;
-    left: -1rem;
-    width: 100%;
-    margin-top: 32rem;
   }
 
   #details {
@@ -108,6 +100,7 @@
 
   .medium-large {
     font-size: 1rem;
+    font-weight: 500;
   }
 
   .bread-text {
@@ -120,7 +113,7 @@
   }
 
   .whitespace {
-    height: 33rem;
+    height: 32rem;
   }
 
   .margin-bot {

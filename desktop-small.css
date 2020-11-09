@@ -7,7 +7,7 @@
     margin: 0;
     font-family: "Roboto Mono", monospace;
     height: 100%;
-    background-color: green;
+    background-color: rgb(245, 244, 221);
   }
 
   header {
@@ -33,19 +33,21 @@
   }
 
   #nameUnFixed {
-    margin-top: 7rem;
+    margin-top: 5.3rem;
     max-width: 10rem;
     margin-left: 1rem;
   }
 
-  #profile-picture {
-    opacity: 50%;
-    /* margin-bottom: 100rem;
+  #profile-picture-container {
+    width: 30rem;
+    background-image: url(./assets/alexander.jpeg);
+    height: 45rem;
+    background-size: cover;
+    background-repeat: none;
+    opacity: 70%;
     position: relative;
-    bottom: 49rem;
-    left: 1.4rem; */
-    width: 34rem;
-    object-fit: contain;
+    bottom: 44rem;
+    left: -2rem;
   }
 
   #details {
@@ -108,7 +110,7 @@
   }
 
   .whitespace {
-    height: 30rem;
+    height: 35rem;
   }
 
   .margin-bot {
@@ -117,5 +119,11 @@
 
   .underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 1920) {
+  body {
+    max-width: 100%;
   }
 }

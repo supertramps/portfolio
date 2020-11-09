@@ -4,10 +4,12 @@
   }
 
   body {
-    margin: 0;
+    margin: auto;
     font-family: "Roboto Mono", monospace;
     height: 100%;
-    background-color: red;
+    background-color: rgb(245, 244, 221);
+    max-width: 40%;
+    position: relative;
   }
 
   header {
@@ -38,13 +40,16 @@
     margin-left: 1rem;
   }
 
-  #profile-picture {
-    opacity: 50%;
-    margin-bottom: 100rem;
+  #profile-picture-container {
+    width: 35rem;
+    height: 50rem;
+    background-image: url(./assets/alexander.jpeg);
+    background-size: cover;
+    background-repeat: none;
+    opacity: 60%;
     position: relative;
-    bottom: 49rem;
-    left: 1.4rem;
-    width: 34rem;
+    bottom: 50rem;
+    left: -2rem;
   }
 
   #details {
@@ -116,5 +121,67 @@
 
   .underline {
     text-decoration-line: underline;
+  }
+}
+
+/* 1440p res */
+@media (min-width: 2000px) {
+  body {
+    max-width: 50%;
+  }
+  .whitespace {
+    height: 31.2rem;
+  }
+  #nameUnFixed {
+    margin-top: 5.5rem;
+  }
+}
+
+/* 4k res */
+
+@media (min-width: 3000px) {
+  body {
+    max-width: 40%;
+  }
+
+  #nameUnFixed {
+    margin-top: 5.2rem;
+    max-width: 10rem;
+    margin-left: 1rem;
+  }
+
+  #profile-picture-container {
+    width: 35rem;
+    height: 50rem;
+    background-image: url(./assets/alexander.jpeg);
+    background-size: cover;
+    background-repeat: none;
+    opacity: 60%;
+    position: relative;
+    bottom: 50rem;
+    left: -2rem;
+  }
+
+  .whitespace {
+    height: 89rem;
+  }
+  .container {
+    height: 4rem;
+    width: 50rem;
+    word-wrap: break-word;
+    margin-top: 70rem;
+    z-index: 1;
+  }
+
+  #nameFixed {
+    position: fixed;
+    margin-left: 5rem;
+    margin-top: 20rem;
+  }
+
+  #nameUnFixed {
+    margin-top: 20.6rem;
+    max-width: 10rem;
+    margin-left: 1rem;
   }
 }
