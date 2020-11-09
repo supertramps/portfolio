@@ -126,4 +126,11 @@
   body {
     max-width: 100%;
   }
+  .bread-text {
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 5rem;
+    position: relative;
+    text-align: center;
+    width: 20rem;
+  }
 }

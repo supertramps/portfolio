@@ -4,7 +4,7 @@
   }
 
   body {
-    margin: 0;
+    margin: auto;
     font-family: "Roboto Mono", monospace;
     background-color: rgb(245, 244, 221);
     padding: 0;
@@ -83,7 +83,7 @@
     align-items: center;
   }
   .small {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
 
   .medium {
@@ -104,8 +104,11 @@
   }
 
   .bread-text {
-    padding: 5rem 20rem 10rem 20rem;
-    margin-bottom: -10rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 5rem;
+    position: relative;
+    text-align: center;
+    width: 20rem;
   }
   .right {
     left: 12rem;
