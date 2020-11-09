@@ -1,0 +1,121 @@
+@media screen and (max-width: 1680px) {
+  html {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    height: 100%;
+    background-color: green;
+  }
+
+  header {
+    width: 50%;
+    height: 4rem;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  /* ID's */
+  #nameFixed {
+    position: fixed;
+    margin-left: 5rem;
+  }
+
+  #nameUnFixed {
+    margin-top: 7rem;
+    max-width: 10rem;
+    margin-left: 1rem;
+  }
+
+  #profile-picture {
+    opacity: 50%;
+    /* margin-bottom: 100rem;
+    position: relative;
+    bottom: 49rem;
+    left: 1.4rem; */
+    width: 34rem;
+    object-fit: contain;
+  }
+
+  #details {
+    margin-left: 5rem;
+    z-index: 1;
+  }
+
+  /* reusable classes */
+  .container {
+    height: 4rem;
+    width: 50rem;
+    word-wrap: break-word;
+    margin-top: 40rem;
+    z-index: 1;
+  }
+
+  .center-text {
+    text-align: center;
+  }
+
+  .margin-left {
+    margin-left: 5rem;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .center {
+    justify-content: center;
+    align-items: center;
+  }
+  .small {
+    font-size: 1.75rem;
+  }
+
+  .medium {
+    font-size: 2.25rem;
+  }
+
+  .large {
+    font-size: 4rem;
+  }
+
+  .xlarge {
+    font-size: 6rem;
+  }
+
+  .medium-large {
+    font-size: 3rem;
+  }
+
+  .bread-text {
+    padding: 5rem 20rem 10rem 20rem;
+    margin-bottom: -10rem;
+  }
+  .right {
+    left: 50rem;
+    position: relative;
+  }
+
+  .whitespace {
+    height: 30rem;
+  }
+
+  .margin-bot {
+    margin-bottom: 20rem;
+  }
+
+  .underline {
+    text-decoration-line: underline;
+  }
+}

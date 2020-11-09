@@ -1,0 +1,133 @@
+@media screen and (max-width: 600px) {
+  html {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    background-color: rgb(245, 244, 221);
+    padding: 0;
+    height: 100%;
+  }
+
+  header {
+    width: 50%;
+    height: 2rem;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  /* ID's */
+  #nameFixed {
+    position: fixed;
+    margin-left: 1rem;
+  }
+
+  #nameUnFixed {
+    margin-top: 1.3rem;
+    margin-left: 0rem;
+  }
+
+  #profile-picture-container {
+    width: 10rem;
+    background-image: url(./assets/alexander.jpeg);
+    height: 15rem;
+    background-size: cover;
+    background-repeat: none;
+    opacity: 60%;
+    z-index: 1;
+    position: relative;
+    bottom: 19rem;
+    left: -2rem;
+  }
+
+  #profile-picture {
+    opacity: 50%;
+    position: relative;
+    bottom: 49rem;
+    left: -1rem;
+    width: 100%;
+    margin-top: 32rem;
+  }
+
+  #details {
+    margin-left: 5rem;
+    z-index: 1;
+  }
+
+  /* reusable classes */
+  .container {
+    height: 4rem;
+    width: 10rem;
+    word-wrap: break-word;
+    margin-top: 15rem;
+    z-index: 1;
+  }
+
+  .center-text {
+    text-align: center;
+  }
+
+  .margin-left {
+    margin-left: 5rem;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .center {
+    justify-content: center;
+    align-items: center;
+  }
+  .small {
+    font-size: 1.75rem;
+  }
+
+  .medium {
+    font-size: 1rem;
+  }
+
+  .large {
+    font-size: 3rem;
+  }
+
+  .xlarge {
+    font-size: 1.5rem;
+  }
+
+  .medium-large {
+    font-size: 1rem;
+  }
+
+  .bread-text {
+    padding: 5rem 20rem 10rem 20rem;
+    margin-bottom: -10rem;
+  }
+  .right {
+    left: 12rem;
+    position: relative;
+  }
+
+  .whitespace {
+    height: 33rem;
+  }
+
+  .margin-bot {
+    margin-bottom: 20rem;
+  }
+
+  .underline {
+    text-decoration-line: underline;
+  }
+}
