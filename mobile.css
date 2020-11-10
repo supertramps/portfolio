@@ -1,129 +1,59 @@
-@media screen and (max-width: 600px) {
-  html {
-    height: 100%;
-  }
-
+@media all and (max-width: 600px) {
   body {
-    margin: auto;
-    font-family: "Roboto Mono", monospace;
-    background-color: rgb(245, 244, 221);
-    padding: 0;
-    height: 100%;
-  }
-
-  header {
-    width: 50%;
-    height: 2rem;
-    justify-content: space-between;
-    text-align: center;
-    margin: auto;
-    margin-top: 1rem;
-  }
-
-  a {
-    text-decoration: none;
-    font-size: 1rem;
-  }
-
-  a:visited {
-    text-decoration: none;
-  }
-
-  /* ID's */
-  #nameFixed {
-    position: fixed;
-    margin-left: 1rem;
-  }
-
-  #nameUnFixed {
-    margin-top: 1.3rem;
-    margin-left: 0rem;
-  }
-
-  #profile-picture-container {
-    width: 10rem;
-    background-image: url(./assets/alexander.jpeg);
-    height: 15rem;
-    background-size: cover;
-    background-repeat: none;
-    opacity: 60%;
-    position: relative;
-    bottom: 20rem;
-    left: -2rem;
-  }
-
-  #details {
-    margin-left: 5rem;
-    z-index: 1;
-  }
-
-  /* reusable classes */
-  .container {
-    height: 4rem;
-    width: 10rem;
-    word-wrap: break-word;
-    margin-top: 15rem;
-    z-index: 1;
-  }
-
-  .center-text {
-    text-align: center;
-  }
-
-  .margin-left {
-    margin-left: 5rem;
-  }
-
-  .flex {
-    display: flex;
-  }
-
-  .center {
-    justify-content: center;
-    align-items: center;
+    /* background-color: violet; */
+    max-width: 100%;
   }
   .small {
     font-size: 1rem;
   }
 
   .medium {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .large {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .xlarge {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
   .medium-large {
     font-size: 1rem;
-    font-weight: 500;
   }
 
-  .bread-text {
-    padding: 1rem 1rem 1rem 1rem;
-    margin-bottom: 5rem;
+  .container {
+    height: 20rem;
+    width: 10rem;
+    word-wrap: break-word;
+    margin-top: 5rem;
+    z-index: 1;
     position: relative;
-    text-align: center;
-    width: 20rem;
+    left: 6rem;
   }
-  .right {
-    left: 12rem;
+
+  #profile-picture-container {
+    height: 20rem;
+    width: 13rem;
+    background-image: url(./assets/alexander.jpeg);
+    background-size: cover;
+    background-position-y: center;
+    opacity: 60%;
     position: relative;
+    bottom: 0rem;
+    left: 0rem;
   }
-
-  .whitespace {
-    height: 32rem;
+  #nameUnFixed {
+    margin-top: 7rem;
+    margin-left: 10rem;
+    z-index: 2;
   }
+}
 
-  .margin-bot {
-    margin-bottom: 20rem;
-  }
-
-  .underline {
-    text-decoration-line: underline;
+@media all and (min-width: 601px) and (max-width: 1800px) {
+  body {
+    width: 50%;
+    background-color: yellow;
   }
 }

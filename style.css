@@ -1,21 +1,23 @@
 html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  font-family: "Roboto Mono", monospace;
-  height: 100%;
+  width: 100vw;
   background-color: rgb(245, 244, 221);
+}
+body {
+  margin: auto;
+  font-family: "Roboto Mono", monospace;
+  background-color: cadetblue;
   padding: 0;
+  max-width: 50%;
+  overflow-x: hidden;
 }
 
 header {
-  width: 50%;
+  max-width: 20rem;
   height: 4rem;
   justify-content: space-between;
   text-align: center;
   margin: auto;
+  background-color: tomato;
 }
 
 a {
@@ -29,22 +31,26 @@ a:visited {
 /* ID's */
 #nameFixed {
   position: fixed;
-  margin-left: 5rem;
+  margin-left: 0rem;
+  margin-top: 7rem;
 }
 
 #nameUnFixed {
   margin-top: 7rem;
-  max-width: 10rem;
   margin-left: 1rem;
+  z-index: 2;
 }
 
-#profile-picture {
-  opacity: 50%;
-  margin-bottom: 100rem;
+#profile-picture-container {
+  height: 37rem;
+  width: 26rem;
+  background-image: url(./assets/alexander.jpeg);
+  background-size: cover;
+  background-position-y: center;
+  opacity: 60%;
   position: relative;
-  bottom: 49rem;
-  left: 1.4rem;
-  width: 30%;
+  bottom: 37rem;
+  left: 5rem;
 }
 
 #details {
@@ -54,11 +60,13 @@ a:visited {
 
 /* reusable classes */
 .container {
-  height: 4rem;
+  height: 40rem;
   width: 50rem;
   word-wrap: break-word;
-  margin-top: 40rem;
+  margin-top: 5rem;
   z-index: 1;
+  position: relative;
+  left: 20rem;
 }
 
 .center-text {
@@ -71,11 +79,22 @@ a:visited {
 
 .flex {
   display: flex;
-  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .center {
   justify-content: center;
+  align-items: center;
+}
+.end {
+  align-items: flex-end;
 }
 .small {
   font-size: 1.75rem;
