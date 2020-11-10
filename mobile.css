@@ -1,8 +1,35 @@
-@media all and (max-width: 600px) {
+@media all and (max-width: 749px) {
   body {
-    /* background-color: violet; */
     max-width: 100%;
   }
+
+  /* #region ID's */
+  #profile-picture-container {
+    height: 20rem;
+    width: 13rem;
+    background-image: url(./assets/alexander.jpeg);
+    background-size: cover;
+    background-position-y: center;
+    opacity: 60%;
+    position: relative;
+    bottom: 23rem;
+    left: -5rem;
+  }
+  #nameUnFixed {
+    margin-top: 7rem;
+    margin-left: 10rem;
+    z-index: 2;
+  }
+  #nameFixed {
+    position: fixed;
+    margin-left: 6%;
+    margin-top: 7rem;
+    z-index: 2;
+  }
+  /* #endregion ID's */
+
+  /* #region reusable classes */
+  /* #region font-sizing */
   .small {
     font-size: 1rem;
   }
@@ -12,48 +39,37 @@
   }
 
   .large {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .xlarge {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .medium-large {
     font-size: 1rem;
   }
+  /* #endregion font-sizing */
+
+  .whitespace {
+    height: 18rem;
+  }
 
   .container {
     height: 20rem;
     width: 10rem;
-    word-wrap: break-word;
-    margin-top: 5rem;
-    z-index: 1;
-    position: relative;
     left: 6rem;
   }
+  .margin-left {
+    margin-left: 1rem;
+  }
 
-  #profile-picture-container {
-    height: 20rem;
-    width: 13rem;
-    background-image: url(./assets/alexander.jpeg);
-    background-size: cover;
-    background-position-y: center;
-    opacity: 60%;
-    position: relative;
-    bottom: 0rem;
-    left: 0rem;
+  .right {
+    left: 2rem;
   }
-  #nameUnFixed {
-    margin-top: 7rem;
-    margin-left: 10rem;
-    z-index: 2;
+  .bread-text {
+    padding: 5rem 2rem 1rem 2rem;
+    margin-bottom: 5rem;
   }
-}
-
-@media all and (min-width: 601px) and (max-width: 1800px) {
-  body {
-    width: 50%;
-    background-color: yellow;
-  }
+  /* #endregion reusable classes */
 }

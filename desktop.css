@@ -1,0 +1,26 @@
+@media all and (min-width: 1801px) and (max-width: 2199px) {
+  body {
+    max-width: 80%;
+  }
+  #nameUnFixed {
+    margin-left: 20%;
+  }
+
+  .whitespace {
+    height: 25rem;
+  }
+}
+
+@media all and (min-width: 2200px) {
+  #nameFixed {
+    margin-left: 0;
+  }
+  .bread-text {
+    max-width: 60%;
+  }
+}
+@media all and (min-width: 2561px) {
+  .whitespace {
+    height: 70rem;
+  }
+}

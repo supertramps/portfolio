@@ -1,13 +1,13 @@
 html {
   width: 100vw;
-  background-color: rgb(245, 244, 221);
+  overflow-x: hidden;
 }
 body {
   margin: auto;
   font-family: "Roboto Mono", monospace;
-  background-color: cadetblue;
+  background-color: rgb(245, 244, 221);
   padding: 0;
-  max-width: 50%;
+  max-width: 60%;
   overflow-x: hidden;
 }
 
@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   text-align: center;
   margin: auto;
-  background-color: tomato;
+  padding-top: 2rem;
 }
 
 a {
@@ -31,8 +31,8 @@ a:visited {
 /* ID's */
 #nameFixed {
   position: fixed;
-  margin-left: 0rem;
   margin-top: 7rem;
+  z-index: 2;
 }
 
 #nameUnFixed {
