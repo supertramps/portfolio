@@ -151,6 +151,6 @@ a:visited {
 
 .section {
   /* opacity: 1; */
-  transition: opacity 1.5s ease-in;
+  transition: opacity 1s ease;
 }
 /* #endregion reusable classes */
