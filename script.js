@@ -24,7 +24,7 @@ function isVisible(element) {
   let elementBox = element.getBoundingClientRect();
 
   // Change value to affect where the text should fade in.
-  let distanceFromTop = -200;
+  let distanceFromTop = 200;
 
   if (elementBox.top - window.innerHeight < distanceFromTop) {
     return true;
