@@ -1,6 +1,7 @@
-@media screen and (min-width: 1801px) {
+/* @media screen and (min-width: 1801px) and (max-width: 2199px) {
   body {
     max-width: 80%;
+    background-color: indianred;
   }
   #nameUnFixed {
     margin-left: 20%;
@@ -10,16 +11,15 @@
     height: 51rem;
   }
 }
-
-@media screen and (min-width: 2500px) {
+@media screen and (min-width: 2200px) {
   #nameFixed {
-    margin-left: 20rem;
+    margin-left: 0rem;
   }
   .bread-text {
     max-width: 60%;
   }
   body {
-    max-width: 40%;
+    max-width: 50%;
     background-color: silver;
   }
   .whitespace {
@@ -27,15 +27,15 @@
   }
 }
 
-@media screen and (min-width: 6000px) {
+@media screen and (min-width: 5440px) {
   .whitespace {
     height: 200rem;
   }
   #nameFixed {
-    margin-left: 10%;
+    margin-left: 5%;
   }
   body {
     max-width: 40%;
     background-color: gold;
   }
-}
+} */

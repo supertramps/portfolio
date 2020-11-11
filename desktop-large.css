@@ -1,62 +1,12 @@
-/* 1440p res */
-@media all and (max-width: 2000px) and (min-width: 1921px) {
-  body {
-    max-width: 50%;
-    background-color: springgreen;
-  }
+@media screen and (min-width: 4440px) {
   .whitespace {
-    height: 48rem;
+    height: 200rem;
   }
-  #nameUnFixed {
-    margin-top: 5.5rem;
+  #nameFixed {
+    margin-left: 5%;
   }
-}
-
-/* 4k res */
-@media all and (min-width: 3000px) {
   body {
     max-width: 40%;
-    background-color: yellow;
-  }
-
-  #nameUnFixed {
-    margin-top: 5.2rem;
-    max-width: 10rem;
-    margin-left: 1rem;
-  }
-
-  #profile-picture-container {
-    width: 35rem;
-    height: 50rem;
-    background-image: url(./assets/alexander.jpeg);
-    background-size: cover;
-    background-repeat: none;
-    opacity: 60%;
-    position: relative;
-    bottom: 50rem;
-    left: -2rem;
-  }
-
-  .whitespace {
-    height: 89rem;
-  }
-  .container {
-    height: 4rem;
-    width: 50rem;
-    word-wrap: break-word;
-    margin-top: 70rem;
-    z-index: 1;
-  }
-
-  #nameFixed {
-    position: fixed;
-    margin-left: 5rem;
-    margin-top: 20rem;
-  }
-
-  #nameUnFixed {
-    margin-top: 20.6rem;
-    max-width: 10rem;
-    margin-left: 1rem;
+    background-color: gold;
   }
 }
