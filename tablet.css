@@ -1,7 +1,7 @@
 @media all and (min-width: 750px) and (max-width: 1800px) {
   body {
     max-width: 100%;
-    background-color: sandybrown;
+    /* background-color: sandybrown; */
   }
 
   iframe {
@@ -12,14 +12,14 @@
   #profile-picture-container {
     height: 25rem;
     width: 18rem;
-    bottom: 23rem;
+    bottom: 30rem;
     left: 3rem;
   }
   #nameUnFixed {
     margin-left: 10rem;
   }
   #nameFixed {
-    margin-left: 5%;
+    margin-left: 6%;
   }
   /* #endregion ID's */
 
@@ -38,7 +38,7 @@
   }
 
   .medium-large {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   /* #endregion font-sizing */
 
@@ -47,16 +47,16 @@
   }
 
   .container {
-    height: 20rem;
+    height: 30rem;
     width: 25rem;
     word-wrap: break-word;
     margin-top: 5rem;
     z-index: 1;
     position: relative;
-    left: 6rem;
+    left: 10rem;
   }
   .right {
-    left: 2rem;
+    left: 50rem;
   }
   .bread-text {
     padding: 5rem 1rem 1rem 1rem;
