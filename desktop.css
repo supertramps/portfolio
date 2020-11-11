@@ -7,23 +7,27 @@
   }
 
   .whitespace {
-    height: 25rem;
+    height: 51rem;
   }
 }
 
 @media screen and (min-width: 2500px) {
   #nameFixed {
-    margin-left: 0;
+    margin-left: 20rem;
   }
   .bread-text {
     max-width: 60%;
   }
   body {
-    max-width: 50%;
+    max-width: 40%;
+    background-color: silver;
+  }
+  .whitespace {
+    height: 95rem;
   }
 }
 
-@media screen and (min-width: 3000px) {
+@media screen and (min-width: 6000px) {
   .whitespace {
     height: 200rem;
   }
@@ -31,6 +35,7 @@
     margin-left: 10%;
   }
   body {
-    max-width: 25%;
+    max-width: 40%;
+    background-color: gold;
   }
 }
