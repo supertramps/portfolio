@@ -1,14 +1,18 @@
-/* @media screen and (min-width: 1801px) and (max-width: 2199px) {
+@media screen and (min-width: 1801px) and (max-width: 2199px) {
   body {
     max-width: 80%;
-    background-color: indianred;
+    /* background-color: indianred; */
   }
   #nameUnFixed {
     margin-left: 20%;
   }
 
+  #last-p {
+    height: 20rem;
+  }
+
   .whitespace {
-    height: 51rem;
+    height: 13rem;
   }
 }
 @media screen and (min-width: 2200px) {
@@ -20,22 +24,22 @@
   }
   body {
     max-width: 50%;
-    background-color: silver;
+    /* background-color: silver; */
   }
   .whitespace {
-    height: 95rem;
+    height: 12rem;
   }
 }
 
-@media screen and (min-width: 5440px) {
+@media screen and (min-width: 3440px) {
   .whitespace {
-    height: 200rem;
+    height: 69rem;
   }
   #nameFixed {
-    margin-left: 5%;
+    margin-left: 1%;
   }
   body {
     max-width: 40%;
-    background-color: gold;
+    /* background-color: gold; */
   }
-} */
+}
