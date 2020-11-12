@@ -1,6 +1,5 @@
-/**
+/*
  * Renders an easter egg in console at page load.
- *
  */
 window.addEventListener("load", (event) => {
   console.log(
@@ -18,6 +17,7 @@ window.addEventListener("load", (event) => {
 
 /**
  * Function sees if desired element is in the viewport or not.
+ *
  *
  */
 function isVisible(element) {
