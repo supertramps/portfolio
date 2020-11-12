@@ -1,5 +1,5 @@
 /**
- * Small easter egg in console
+ * Renders an easter egg in console at page load.
  *
  */
 window.addEventListener("load", (event) => {
