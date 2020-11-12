@@ -101,15 +101,21 @@ a:visited {
   justify-content: center;
   align-items: center;
 }
+
 .end {
   align-items: flex-end;
 }
+
 .small {
   font-size: 1.75rem;
 }
 
 .medium {
   font-size: 2.25rem;
+}
+
+.medium-large {
+  font-size: 3rem;
 }
 
 .large {
@@ -120,14 +126,11 @@ a:visited {
   font-size: 6rem;
 }
 
-.medium-large {
-  font-size: 3rem;
-}
-
 .bread-text {
   padding: 5rem 20rem 10rem 20rem;
   margin-bottom: -10rem;
 }
+
 .right {
   left: 50rem;
   position: relative;
