@@ -1,6 +1,4 @@
-/*
- * Renders an easter egg in console at page load.
- */
+// Renders an easter egg in console at page load.
 window.addEventListener("load", (event) => {
   console.log(
     `%c 
@@ -17,13 +15,15 @@ window.addEventListener("load", (event) => {
 
 /**
  * Function sees if desired element is in the viewport or not.
- *
- *
  */
 function isVisible(element) {
   let elementBox = element.getBoundingClientRect();
 
   // Change value to affect where the text should fade in.
+  /**
+   * The distance from top of the page
+   * @type {number}
+   */
   let distanceFromTop = -200;
 
   if (elementBox.top - window.innerHeight < distanceFromTop) {
@@ -37,6 +37,7 @@ function isVisible(element) {
  *
  */
 function removeHidden() {
+  /** Targets a certain class */
   let targetClass = document.querySelectorAll(".hidden");
   targetClass.forEach(function (section) {
     if (isVisible(section)) {
