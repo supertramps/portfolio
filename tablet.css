@@ -1,7 +1,6 @@
 @media all and (min-width: 750px) and (max-width: 1800px) {
   body {
     max-width: 100%;
-    /* background-color: sandybrown; */
   }
 
   /* #region ID's */
@@ -11,11 +10,13 @@
     bottom: 30rem;
     left: 3rem;
   }
-  #nameUnFixed {
-    margin-left: 10rem;
-  }
+
   #nameFixed {
     margin-left: 6%;
+  }
+
+  #nameUnFixed {
+    margin-left: 10rem;
   }
   /* #endregion ID's */
 
@@ -29,17 +30,18 @@
     font-size: 2rem;
   }
 
+  .medium-large {
+    font-size: 2rem;
+  }
+
   .large {
     font-size: 3rem;
   }
 
-  .medium-large {
-    font-size: 2rem;
-  }
   /* #endregion font-sizing */
 
   .whitespace {
-    height: 30rem;
+    height: 8rem;
   }
 
   .container {

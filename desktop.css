@@ -1,7 +1,6 @@
 @media screen and (min-width: 1801px) and (max-width: 2199px) {
   body {
     max-width: 80%;
-    /* background-color: indianred; */
   }
   #nameUnFixed {
     margin-left: 20%;
@@ -24,7 +23,6 @@
   }
   body {
     max-width: 50%;
-    /* background-color: silver; */
   }
   .whitespace {
     height: 12rem;
@@ -40,6 +38,5 @@
   }
   body {
     max-width: 40%;
-    /* background-color: gold; */
   }
 }

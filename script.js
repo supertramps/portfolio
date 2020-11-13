@@ -36,13 +36,13 @@ function isVisible(element) {
  * Function removes the .hidden class if element is in the viewport.
  *
  */
-function scanDocument() {
-  let sectionList = document.querySelectorAll(".hidden");
-  sectionList.forEach(function (section) {
+function removeHidden() {
+  let targetClass = document.querySelectorAll(".hidden");
+  targetClass.forEach(function (section) {
     if (isVisible(section)) {
       section.classList.remove("hidden");
     }
   });
 }
 
-document.addEventListener("scroll", scanDocument);
+document.addEventListener("scroll", removeHidden);
