@@ -30,12 +30,13 @@
 
   /* #region reusable classes */
   /* #region font-sizing */
+
   .small {
     font-size: 1rem;
   }
 
   .medium {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
   .large {
@@ -50,6 +51,11 @@
     font-size: 1rem;
   }
   /* #endregion font-sizing */
+
+  .center-text {
+    text-align: center;
+    max-width: 80%;
+  }
 
   .whitespace {
     height: 12rem;
@@ -72,4 +78,29 @@
     margin-bottom: 5rem;
   }
   /* #endregion reusable classes */
+}
+
+@media all and (max-width: 350px) {
+  header {
+    max-width: 70%;
+  }
+
+  .medium-large {
+    font-size: 0.7rem;
+  }
+
+  .large {
+    font-size: 1.2rem;
+  }
+
+  .whitespace {
+    height: 2rem;
+  }
+
+  #profile-picture-container {
+    height: 15rem;
+    width: 9rem;
+    bottom: 16.5rem;
+    left: -1rem;
+  }
 }
