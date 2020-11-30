@@ -1,15 +1,11 @@
 /* #region global CSS */
-html {
-  width: 100vw;
-  /* overflow-x: hidden; */
-}
 body {
   margin: auto;
   font-family: "Roboto Mono", monospace;
   background-color: rgb(252, 249, 233);
   padding: 0;
   max-width: 60%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 header {
