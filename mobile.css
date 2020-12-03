@@ -5,15 +5,15 @@
 
   /* #region ID's */
   #profile-picture-container {
-    height: 20rem;
-    width: 13rem;
+    height: 17rem;
+    width: 12rem;
     background-image: url(./assets/alexander.jpeg);
     background-size: cover;
     background-position-y: center;
     opacity: 60%;
     position: relative;
-    bottom: 23rem;
-    left: -5rem;
+    bottom: 18.5rem;
+    left: -2rem;
   }
   #nameUnFixed {
     margin-top: 7rem;
@@ -32,7 +32,7 @@
   /* #region font-sizing */
 
   .small {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
   .medium {
@@ -48,7 +48,7 @@
   }
 
   .medium-large {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   /* #endregion font-sizing */
 
@@ -58,13 +58,13 @@
   }
 
   .whitespace {
-    height: 12rem;
+    height: 14rem;
   }
 
   .container {
     height: 20rem;
-    width: 10rem;
-    left: 6rem;
+    width: 11rem;
+    left: 5rem;
   }
   .margin-left {
     margin-left: 1rem;
@@ -85,6 +85,13 @@
     max-width: 70%;
   }
 
+  #profile-picture-container {
+    height: 15rem;
+    width: 9rem;
+    bottom: 16.5rem;
+    left: -1rem;
+  }
+
   .medium-large {
     font-size: 0.7rem;
   }
@@ -94,13 +101,15 @@
   }
 
   .whitespace {
-    height: 2rem;
+    height: 0.2rem;
   }
 
-  #profile-picture-container {
-    height: 15rem;
-    width: 9rem;
-    bottom: 16.5rem;
-    left: -1rem;
+  .container {
+    width: 10rem;
+    left: 4.3rem;
+  }
+
+  .bread-text {
+    padding: 1rem 2rem 1rem 2rem;
   }
 }
