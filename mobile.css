@@ -3,6 +3,17 @@
     max-width: 100%;
   }
 
+  .cardContainer {
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .textFlex {
+    display: flex;
+    align-items: center;
+    font-size: 0.55rem;
+  }
+
   /* #region ID's */
   #profile-picture-container {
     height: 17rem;
@@ -111,5 +122,20 @@
 
   .bread-text {
     padding: 1rem 2rem 1rem 2rem;
+  }
+
+  .cardContainer {
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .textFlex {
+    display: flex;
+    align-items: center;
+    font-size: 0.45rem;
+  }
+
+  iFrame {
+    display: none;
   }
 }

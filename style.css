@@ -58,6 +58,17 @@ a:visited {
 
 /*#endregion ID's */
 
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textFlex {
+  display: flex;
+  align-items: center;
+}
+
 /* #region reusable classes */
 .container {
   height: 40rem;
