@@ -23,7 +23,7 @@
   /* #region reusable classes */
   /* #region font-sizing */
   .small {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .medium {
@@ -59,7 +59,7 @@
   .bread-text {
     padding: 5rem 1rem 1rem 1rem;
     margin-bottom: 5rem;
-    max-width: 77%;
+    max-width: 50%;
     margin: auto;
   }
   .margin-left {
